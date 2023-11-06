@@ -1,0 +1,117 @@
+body 
+{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+   background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+  h1{
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2;
+    color: antiquewhite;
+    margin-top: 20px;
+    padding: 10px;
+  }
+p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.125rem;
+    font-style: initial;
+}
+h1,
+p/* {
+  margin-top: 0;
+  margin-bottom: 0.5rem;*/
+
+.container{
+   margin: auto;
+   padding-right: 10px;
+}
+  form{
+    background-color:rgb(3, 3, 5);
+    opacity: 0.6;
+    width: 45%;
+    height: auto;
+
+    color: aliceblue;
+    font-size: 20px;  
+    margin: auto;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 5px;
+   
+  }
+  .inline {
+    width: unset;
+    /* vertical-align:center; */
+    margin: 0;
+  }
+  .form-c{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 5px;
+    
+  }
+  .personal{
+    padding-top: 20px;
+  }
+  
+  label {
+    width: 100%;
+    padding: 5px;
+    display: block;
+  }
+#dropdown{
+    display: block;
+    width: 98.5%;
+    height: 3em;
+    border-radius: 5px;
+  }
+  .radiob{
+    
+  }
+  label {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #comment{
+    display: block;
+    width: 60%;
+  }
+  input[type="submit"] {
+    display: block;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 300px;
+    width: 100%;
+    padding: 0.75rem;
+    background:green;
+    border-radius: 2px;
+    cursor: pointer
+  }
+  textarea{
+    width:100%;
+    min-height: 120px;
+    font-size:20px;
+  }
+  input,select{
+    font-size: 18px;
+  }
+  #comment{
+    width: 98%;
+  }
